@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600&display=swap');
-
-*{
+@font-face {
+    font-family: "San Francisco";
+    src: url("https://developer.apple.com/fonts/downloads/SF-Pro.dmg") format("truetype");
+  }
+  
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', 'sans-serif';
-}
+    font-family: 'San Francisco', sans-serif;
+  }
 
 body {
-    background: #081b29;
+    background: #090909;
     color: #ededed;
 }
 
@@ -43,7 +46,7 @@ body {
 
 .navbar a:hover, 
 .navbar a.active {
-    color: #000000;
+    color: #090909;
 }
 
 .home {
@@ -142,7 +145,7 @@ body {
 }
 
 form {
-    background: #fff;
+    background: #eeeeee;
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
@@ -186,3 +189,10 @@ form button:hover{
     background: rgb(221, 0, 221);
     transition: 0.4s;
 }
+
+h3 {
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
